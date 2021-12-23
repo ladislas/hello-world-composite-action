@@ -16,5 +16,5 @@ jobs:
           echo "env variable: ${{ env.action_state }}"
         shell: bash
       - run: |
-          echo "other env variable: $OTHER_ACTION_STATE
+          echo "other env variable: $OTHER_ACTION_STATE"
         shell: bash
