@@ -12,3 +12,6 @@ jobs:
           who-to-greet: "Ladislas"
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
         shell: bash
+      - run: |
+          echo "env variable: ${{ env.action_state }}"
+        shell: bash
